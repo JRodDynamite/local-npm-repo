@@ -1,0 +1,13 @@
+{
+  "name": "pkg-two",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "files": [
+    "dist/*"
+  ]
+}

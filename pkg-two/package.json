@@ -1,0 +1,16 @@
+{
+  "name": "pkg-one",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "pkg-two": "file:../pkg-one"
+  }
+}
